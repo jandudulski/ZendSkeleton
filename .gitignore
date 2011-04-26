@@ -1,0 +1,28 @@
+.zfproject.xml
+
+# vim 
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
