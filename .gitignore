@@ -1,4 +1,6 @@
 .zfproject.xml
+custom.ini
+tags
 
 # vim 
 .*.sw[a-z]

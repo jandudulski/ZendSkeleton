@@ -1,0 +1,9 @@
+[production]
+resources.view.title = "Example Application"
+
+[staging : production]
+
+[testing : production]
+
+[development : production]
+

@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+<?php print $this->doctype() ?>
 <html>
     <head>
-        <meta charset="utf-8"/>
         <?php print $this->headMeta() ?>
+        <?php print $this->headLink() ?>
         <?php print $this->headTitle() ?>
     </head>
     <body>
 
         <div class="container">
-            <?php echo $this->layout()->content ?>
+            <?php print $this->partial('_header.phtml') ?>
+            <?php print $this->layout()->content ?>
+            <?php print $this->partial('_footer.phtml') ?>
         </div>
 
     <?php print $this->headScript() ?>
