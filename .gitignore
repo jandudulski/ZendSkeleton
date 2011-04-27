@@ -1,6 +1,7 @@
 .zfproject.xml
 custom.ini
 tags
+logs/*.log
 
 # vim 
 .*.sw[a-z]
