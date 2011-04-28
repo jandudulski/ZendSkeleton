@@ -10,7 +10,7 @@ In most cases I am repeating the same steps:
 - Initializing head* helpers with stylesheets, javascripts, meta tags etc
 - Initializing Logger
 - Initializing Navigation
-- Creating HTML5 structure with blueprintcss
+- Creating HTML5 structure with lessframework
 
 Plans
 =====
@@ -23,6 +23,7 @@ Plans
 - Simple Backend with users and static pages
 - Better default error page
 - Helpers
+- Navigation db based
 - Tests!!
 
 Attention
