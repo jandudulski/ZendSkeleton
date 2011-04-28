@@ -1,6 +1,7 @@
 .zfproject.xml
 custom.ini
 navigation.xml
+application.css
 tags
 logs/*.log
 
