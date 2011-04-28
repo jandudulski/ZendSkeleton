@@ -25,7 +25,8 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
     protected function _initHeadMeta()
     {
         $this->getView()->headMeta()
-            ->setCharset('utf-8');
+            ->setCharset('utf-8')
+            ->appendName('viewport', 'width=device-width, initial-scale=1');
     }
 
     /**
@@ -34,6 +35,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
     protected function _initHeadLink()
     {
         $this->getView()->headLink()
+            ->appendStylesheet('/stylesheets/main.css?4.03')
             ->appendStylesheet('/stylesheets/application.css')
             ->headLink(array('rel' => 'author', 'href' => '/humans.txt', 'type' => 'text/plain'));
     }
